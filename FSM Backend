@@ -1,0 +1,125 @@
+FSM Backend
+*****************************
+- Players service
+	- create players and assign player ID and status
+	- get player info
+	- update player info()
+	- get player fixtures ()
+	- update playerfixtures
+	- get player configs
+	= update player configs
+	- get player scores
+	- update player scores
+	- create player game week
+	- get player game week info
+	- update player game week
+
+
+- Player listing service
+	- pre-listing
+	- listing
+
+
+- Player config service
+	- persona config ()
+	- performance config ()
+	- Add new config ()
+
+- Player gwk service
+	- get event
+	- get fixtures
+	
+
+- Player scoring service
+	- get gameweek ratings
+	- get gameweek info
+
+
+- Player price service
+	- get listing price
+	- get listing ptv
+	- get new price
+	- get new ptv
+	- get rolling price
+	- get rolling ptv
+
+"""I need to create an application for the players DB with the following microservices
+
+- Players service
+	- create players and assign player ID and status
+	- get player info
+	- update player info()
+	- get player fixtures ()
+	- update playerfixtures
+	- get player configs
+	= update player configs
+	- get player scores
+	- update player scores
+	- create player game week
+	- get player game week info
+	- update player game week
+
+
+- Player listing service
+	- Evaluate All_players from last season
+	- Evaluate All_players for this season
+	- Provide a list of suggested players(pre-listing)
+	- De-listing players
+
+
+- Player config service
+	- persona config 
+	- performance config 
+	- Add new config
+
+- Player gwk service
+	- create player game weeks
+	- create player fixtures
+
+	
+
+- Player scoring service
+	- calculate all scores and update DB
+	- calculate and update weekly scores and update DB
+	- get gameweek ratings
+	- get gameweek info
+
+
+- Player price service
+	- calculate listing price and ptv
+	- calculate weekly new price and ptv and update DB
+	- calculate rolling price and ptv and update DB
+
+I want to create an architecture where the player service is the controller service, and the other services are workers that provide feedback to the player service.
+See a sample flow of activities the player service would perform
+
+
+ 1. Player service Query the player listing service for a list of suggested activations
+
+ 2. Player service Check if there is enough credit for a player activation in the activation price table
+
+ 
+ 3. Player service Count number of potential player activations from activation price credit
+
+ 4. Player service Route to scoring service query player config service for player weight assignment, and generate player activation scores
+
+ 5. Player service Route to pricing service check to generate player listing price
+
+ 6. Player service Create Player ID and update player information in DB and assign status new
+
+ 7. Player service Route to gameweek service to create player gameweek fixtures
+
+ 8. Player service Check all operations are completed, update all tables and update player status to listed
+
+
+ Questions
+ ----------------------
+
+1. Whats the best coding appraoch i should utilize to achieve this service orchestration
+2. give me example the player and listing service and show me how i can make calls to different functions defined in each codebases using the usecase provided above
+
+
+ """
+
+
+
