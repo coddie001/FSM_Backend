@@ -90,6 +90,10 @@ FSM Backend
 	- calculate weekly new price and ptv and update DB
 	- calculate rolling price and ptv and update DB
 
+
+
+Players Service Scope 
+##############################################################################
 I want to create an architecture where the player service is the controller service, and the other services are workers that provide feedback to the player service.
 See a sample flow of activities the player service would perform
 
@@ -120,6 +124,50 @@ See a sample flow of activities the player service would perform
 
 
  """
+
+
+ Utils
+ ***********
+ -Player_utils
+ -db_utils
+ -gwk_utils
+ -logger
+ - Player_worker_utils
+
+
+Players Listing Scope 
+##############################################################################
+
+Randomly select 15 players for initial listing
+- 3 Player within 1 SD
+- 6 Player within 2 SD
+- 6 Player within 3 SD
+
+Weekly check the boostrap URL to fetch suggested 5 activations
+- query bootstrap for players with top most-slections
+- query bootstrap for players with top most bonus points
+- randomly select 5 players that match that criteria
+- repeat procedure 3 days
+
+Players gwk Scope 
+##############################################################################
+
+fetch all fixtures
+fetch next fixtues
+game week stats 
+
+
+
+update player information, post
+
+
+Threadpool executor
+*****************************
+
+from concurrent.futures import ThreadpoolExecutor
+
+APScheduler
+
 
 
 

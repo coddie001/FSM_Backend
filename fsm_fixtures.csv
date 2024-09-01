@@ -1,0 +1,39 @@
+id,code,team_h,team_h_score,team_a,team_a_score,event,finished,minutes,provisional_start_time,kickoff_time,event_name,is_home,difficulty
+2,2444471,Arsenal,,Wolves,,1,False,0,False,2024-08-17T14:00:00Z,Gameweek 1,True,2
+11,2444481,Aston Villa,,Arsenal,,2,False,0,False,2024-08-24T16:30:00Z,Gameweek 2,False,4
+21,2444490,Arsenal,,Brighton,,3,False,0,False,2024-08-31T11:30:00Z,Gameweek 3,True,2
+39,2444508,Spurs,,Arsenal,,4,False,0,False,2024-09-15T13:00:00Z,Gameweek 4,False,4
+47,2444516,Man City,,Arsenal,,5,False,0,False,2024-09-22T15:30:00Z,Gameweek 5,False,5
+51,2444521,Arsenal,,Leicester,,6,False,0,False,2024-09-28T14:00:00Z,Gameweek 6,True,2
+61,2444530,Arsenal,,Southampton,,7,False,0,False,2024-10-05T14:00:00Z,Gameweek 7,True,2
+71,2444540,Bournemouth,,Arsenal,,8,False,0,False,2024-10-20T13:00:00Z,Gameweek 8,False,2
+81,2444550,Arsenal,,Liverpool,,9,False,0,False,2024-10-27T16:30:00Z,Gameweek 9,True,4
+96,2444565,Newcastle,,Arsenal,,10,False,0,False,2024-11-02T15:00:00Z,Gameweek 10,False,4
+103,2444572,Chelsea,,Arsenal,,11,False,0,False,2024-11-09T15:00:00Z,Gameweek 11,False,4
+111,2444581,Arsenal,,Nott'm Forest,,12,False,0,False,2024-11-23T15:00:00Z,Gameweek 12,True,2
+129,2444598,West Ham,,Arsenal,,13,False,0,False,2024-11-30T15:00:00Z,Gameweek 13,False,2
+131,2444601,Arsenal,,Man Utd,,14,False,0,False,2024-12-03T19:45:00Z,Gameweek 14,True,3
+145,2444614,Fulham,,Arsenal,,15,False,0,False,2024-12-07T15:00:00Z,Gameweek 15,False,3
+151,2444621,Arsenal,,Everton,,16,False,0,False,2024-12-14T15:00:00Z,Gameweek 16,True,2
+163,2444632,Crystal Palace,,Arsenal,,17,False,0,False,2024-12-21T15:00:00Z,Gameweek 17,False,3
+171,2444641,Arsenal,,Ipswich,,18,False,0,False,2024-12-26T15:00:00Z,Gameweek 18,True,2
+182,2444651,Brentford,,Arsenal,,19,False,0,False,2024-12-29T15:00:00Z,Gameweek 19,False,2
+193,2444662,Brighton,,Arsenal,,20,False,0,False,2025-01-04T15:00:00Z,Gameweek 20,False,2
+201,2444670,Arsenal,,Spurs,,21,False,0,False,2025-01-14T19:45:00Z,Gameweek 21,True,3
+211,2444680,Arsenal,,Aston Villa,,22,False,0,False,2025-01-18T15:00:00Z,Gameweek 22,True,3
+230,2444699,Wolves,,Arsenal,,23,False,0,False,2025-01-25T15:00:00Z,Gameweek 23,False,2
+231,2444701,Arsenal,,Man City,,24,False,0,False,2025-02-01T15:00:00Z,Gameweek 24,True,5
+245,2444714,Leicester,,Arsenal,,25,False,0,False,2025-02-15T15:00:00Z,Gameweek 25,False,2
+251,2444721,Arsenal,,West Ham,,26,False,0,False,2025-02-22T15:00:00Z,Gameweek 26,True,2
+264,2444733,Nott'm Forest,,Arsenal,,27,False,0,False,2025-02-25T19:45:00Z,Gameweek 27,False,2
+276,2444745,Man Utd,,Arsenal,,28,False,0,False,2025-03-08T15:00:00Z,Gameweek 28,False,3
+281,2444751,Arsenal,,Chelsea,,29,False,0,False,2025-03-15T15:00:00Z,Gameweek 29,True,3
+291,2444761,Arsenal,,Fulham,,30,False,0,False,2025-04-01T18:45:00Z,Gameweek 30,True,2
+304,2444773,Everton,,Arsenal,,31,False,0,False,2025-04-05T14:00:00Z,Gameweek 31,False,3
+311,2444781,Arsenal,,Brentford,,32,False,0,False,2025-04-12T14:00:00Z,Gameweek 32,True,2
+326,2444795,Ipswich,,Arsenal,,33,False,0,False,2025-04-19T14:00:00Z,Gameweek 33,False,2
+331,2444801,Arsenal,,Crystal Palace,,34,False,0,False,2025-04-26T14:00:00Z,Gameweek 34,True,2
+341,2444810,Arsenal,,Bournemouth,,35,False,0,False,2025-05-03T14:00:00Z,Gameweek 35,True,2
+354,2444823,Liverpool,,Arsenal,,36,False,0,False,2025-05-10T14:00:00Z,Gameweek 36,False,5
+361,2444830,Arsenal,,Newcastle,,37,False,0,False,2025-05-18T14:00:00Z,Gameweek 37,True,3
+378,2444847,Southampton,,Arsenal,,38,False,0,False,2025-05-25T15:00:00Z,Gameweek 38,False,2

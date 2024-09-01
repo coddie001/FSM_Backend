@@ -1,0 +1,20 @@
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore SQLite databases or other sensitive files
+*.sqlite
+*.db
+
+# Ignore system files (macOS)
+.DS_Store
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
